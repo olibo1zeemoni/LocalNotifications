@@ -54,7 +54,7 @@ class ViewController: UIViewController {
                         }
                         
                     }
-                    let alertDialog  = UIAlertController(title: "Notification Scheduled", message: " at" + formattedDate(date: date), preferredStyle: .alert)
+                    let alertDialog  = UIAlertController(title: "Notification Scheduled", message: " @ " + formattedDate(date: date), preferredStyle: .alert)
                     alertDialog.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in }))
                     self.present(alertDialog, animated: true)
                     
